@@ -1,0 +1,23 @@
+[2020-02-13 01:17:08] ERROR [Application.php:63] Uncaught UnexpectedValueException: DirectoryIterator::__construct(/opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/site-reviews/plugin/Modules/Upgrader): failed to open dir: No such file or directory in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/site-reviews/plugin/Modules/Upgrader.php:22
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/site-reviews/plugin/Modules/Upgrader.php(22): DirectoryIterator->__construct('/opt/bitnami/ap...')
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/site-reviews/plugin/Application.php(264): GeminiLabs\SiteReviews\Modules\Upgrader->run()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/site-reviews/plugin/Application.php(279): GeminiLabs\SiteReviews\Application->upgrade()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(288): GeminiLabs\SiteReviews\Application->upgraded(Object(Plugin_Upgrader), Array)
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+[2020-02-13 01:17:16] ERROR [Application.php:63] Uncaught ReflectionException: Class GeminiLabs\SiteReviews\Modules\Upgrader does not exist in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/site-reviews/plugin/Container.php:180
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/site-reviews/plugin/Container.php(180): ReflectionClass->__construct('GeminiLabs\\Site...')
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/site-reviews/plugin/Container.php(116): GeminiLabs\SiteReviews\Container->resolve('GeminiLabs\\Site...')
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/site-reviews/plugin/Application.php(264): GeminiLabs\SiteReviews\Container->make('GeminiLabs\\Site...')
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/site-reviews/plugin/Application.php(127): GeminiLabs\SiteReviews\Application->upgrade()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(288): GeminiLabs\SiteReviews\Application->getDefaults('')
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(312): WP_Hook-
+[2020-02-13 01:17:27] ERROR [Application.php:63] Uncaught ReflectionException: Class GeminiLabs\SiteReviews\Modules\Upgrader does not exist in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/site-reviews/plugin/Container.php:180
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/site-reviews/plugin/Container.php(180): ReflectionClass->__construct('GeminiLabs\\Site...')
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/site-reviews/plugin/Container.php(116): GeminiLabs\SiteReviews\Container->resolve('GeminiLabs\\Site...')
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/site-reviews/plugin/Application.php(264): GeminiLabs\SiteReviews\Container->make('GeminiLabs\\Site...')
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/site-reviews/plugin/Application.php(127): GeminiLabs\SiteReviews\Application->upgrade()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(288): GeminiLabs\SiteReviews\Application->getDefaults('')
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(312): WP_Hook-

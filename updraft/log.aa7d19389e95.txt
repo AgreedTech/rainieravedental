@@ -1,0 +1,179 @@
+0000.012 (0) Opened log file at time: Mon, 08 Aug 2022 09:41:30 +0000 on https://rainieravedental.com
+0000.072 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.3.12 PHP: 7.0.30 (fpm-fcgi, Linux ip-172-26-12-66 4.4.0-1107-aws #118-Ubuntu SMP Sun May 3 23:28:51 UTC 2020 x86_64) MySQL: 5.7.22 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.7M | 2M) multisite: N openssl: OpenSSL 1.0.2o  27 Mar 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.087 (0) Free space on disk containing Updraft's temporary directory: 1108.7 MB
+0000.119 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.123 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.135 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1659865354, seconds_ago=86336)
+0000.143 (0) Set semaphore last lock (fd) time to 2022-08-08 09:41:30
+0000.144 (0) Semaphore lock (fd) complete
+0000.160 (0) Backup run: resumption=0, nonce=aa7d19389e95, file_nonce=aa7d19389e95 begun at=1659951690 (0s ago), job type=backup
+0000.168 (0) Scheduling a resumption (1) after 300 seconds (1659951990) in case this run gets aborted
+0000.181 (0) Checking if we have a zip executable available
+0000.185 (0) Testing: /usr/bin/zip
+0000.195 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.200 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.202 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.203 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.206 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.213 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.216 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.226 (0) Working binary zip found: /usr/bin/zip
+0000.233 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.235 (0) Creation of backups of directories: beginning
+0000.241 (0) No backup of plugins: excluded by user's options
+0000.244 (0) No backup of themes: excluded by user's options
+0000.247 (0) No backup of uploads: excluded by user's options
+0000.249 (0) No backup of others: excluded by user's options
+0000.259 (0) Saving backup status to database (elements: 0)
+0000.676 (0) Beginning creation of database dump (WordPress DB)
+0000.819 (0) Table wp_options: Total expected rows (approximate): 571
+0001.022 (0) Table wp_options: Total rows added: 577 in 0.20 seconds
+0001.026 (0) Table wp_options: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_options.table.gz - 234.3 KB)
+0001.038 (0) Table wp_users: Total expected rows (approximate): 3
+0001.045 (0) Table wp_users: Total rows added: 3 in 0.00 seconds
+0001.048 (0) Table wp_users: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_users.table.gz - 0.7 KB)
+0001.066 (0) Table wp_usermeta: Total expected rows (approximate): 62
+0001.071 (0) Table wp_usermeta: Total rows added: 63 in 0.00 seconds
+0001.074 (0) Table wp_usermeta: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_usermeta.table.gz - 2.3 KB)
+0001.087 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0001.090 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0001.093 (0) Table wp_commentmeta: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0001.108 (0) Table wp_comments: Total expected rows (approximate): 0
+0001.113 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+0001.117 (0) Table wp_comments: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_comments.table.gz - 0.5 KB)
+0001.133 (0) Table wp_links: Total expected rows (approximate): 0
+0001.139 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0001.142 (0) Table wp_links: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_links.table.gz - 0.4 KB)
+0001.157 (0) Table wp_postmeta: Total expected rows (approximate): 4130
+0001.321 (0) Table wp_postmeta: Total rows added: 3756 in 0.16 seconds
+0001.325 (0) Table wp_postmeta: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_postmeta.table.gz - 74.4 KB)
+0001.341 (0) Table wp_posts: Total expected rows (approximate): 1217
+0002.837 (0) Table wp_posts: Total rows added: 1001 in 1.49 seconds
+0002.866 (0) Table wp_posts: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_posts.table.gz - 803.5 KB)
+0002.892 (0) Table wp_term_relationships: Total expected rows (approximate): 338
+0002.909 (0) Table wp_term_relationships: Total rows added: 344 in 0.01 seconds
+0002.918 (0) Table wp_term_relationships: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_term_relationships.table.gz - 1.1 KB)
+0002.931 (0) Table wp_term_taxonomy: Total expected rows (approximate): 8
+0002.937 (0) Table wp_term_taxonomy: Total rows added: 8 in 0.00 seconds
+0002.941 (0) Table wp_term_taxonomy: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0002.951 (0) Table wp_termmeta: Total expected rows (approximate): 12
+0002.957 (0) Table wp_termmeta: Total rows added: 12 in 0.00 seconds
+0002.960 (0) Table wp_termmeta: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_termmeta.table.gz - 0.6 KB)
+0002.968 (0) Table wp_terms: Total expected rows (approximate): 8
+0002.973 (0) Table wp_terms: Total rows added: 8 in 0.00 seconds
+0002.977 (0) Table wp_terms: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_terms.table.gz - 0.5 KB)
+0002.992 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 52
+0002.997 (0) Table wp_yoast_seo_links: Total rows added: 52 in 0.00 seconds
+0003.005 (0) Table wp_yoast_seo_links: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_yoast_seo_links.table.gz - 1.2 KB)
+0003.020 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 331
+0003.031 (0) Table wp_yoast_seo_meta: Total rows added: 366 in 0.00 seconds
+0003.036 (0) Table wp_yoast_seo_meta: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_yoast_seo_meta.table.gz - 1.3 KB)
+0003.048 (0) Table wp_blc_filters: Total expected rows (approximate): 0
+0003.052 (0) Table wp_blc_filters: Total rows added: 0 in 0.00 seconds
+0003.055 (0) Table wp_blc_filters: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_blc_filters.table.gz - 0.3 KB)
+0003.063 (0) Table wp_blc_instances: Total expected rows (approximate): 40
+0003.073 (0) Table wp_blc_instances: Total rows added: 40 in 0.01 seconds
+0003.078 (0) Table wp_blc_instances: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_blc_instances.table.gz - 1.6 KB)
+0003.089 (0) Table wp_blc_links: Total expected rows (approximate): 27
+0003.114 (0) Table wp_blc_links: Total rows added: 27 in 0.02 seconds
+0003.117 (0) Table wp_blc_links: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_blc_links.table.gz - 6.5 KB)
+0003.133 (0) Table wp_blc_synch: Total expected rows (approximate): 21
+0003.143 (0) Table wp_blc_synch: Total rows added: 21 in 0.01 seconds
+0003.162 (0) Table wp_blc_synch: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_blc_synch.table.gz - 0.6 KB)
+0003.178 (0) Table wp_grp_google_place: Total expected rows (approximate): 0
+0003.185 (0) Table wp_grp_google_place: Total rows added: 0 in 0.00 seconds
+0003.188 (0) Table wp_grp_google_place: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_grp_google_place.table.gz - 0.4 KB)
+0003.209 (0) Table wp_grp_google_review: Total expected rows (approximate): 0
+0003.226 (0) Table wp_grp_google_review: Total rows added: 0 in 0.01 seconds
+0003.230 (0) Table wp_grp_google_review: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_grp_google_review.table.gz - 0.4 KB)
+0003.249 (0) Table wp_layerslider: Total expected rows (approximate): 0
+0003.257 (0) Table wp_layerslider: Total rows added: 0 in 0.00 seconds
+0003.260 (0) Table wp_layerslider: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_layerslider.table.gz - 0.4 KB)
+0003.279 (0) Table wp_layerslider_revisions: Total expected rows (approximate): 0
+0003.286 (0) Table wp_layerslider_revisions: Total rows added: 0 in 0.00 seconds
+0003.290 (0) Table wp_layerslider_revisions: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_layerslider_revisions.table.gz - 0.3 KB)
+0003.311 (0) Table wp_oses_attachments: Total expected rows (approximate): 0
+0003.321 (0) Table wp_oses_attachments: Total rows added: 0 in 0.01 seconds
+0003.324 (0) Table wp_oses_attachments: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_oses_attachments.table.gz - 0.3 KB)
+0003.337 (0) Table wp_oses_clicks: Total expected rows (approximate): 0
+0003.347 (0) Table wp_oses_clicks: Total rows added: 0 in 0.01 seconds
+0003.350 (0) Table wp_oses_clicks: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_oses_clicks.table.gz - 0.4 KB)
+0003.360 (0) Table wp_oses_email_attachments: Total expected rows (approximate): 0
+0003.364 (0) Table wp_oses_email_attachments: Total rows added: 0 in 0.00 seconds
+0003.367 (0) Table wp_oses_email_attachments: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_oses_email_attachments.table.gz - 0.3 KB)
+0003.383 (0) Table wp_oses_emails: Total expected rows (approximate): 411
+0003.432 (0) Table wp_oses_emails: Total rows added: 411 in 0.05 seconds
+0003.436 (0) Table wp_oses_emails: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_oses_emails.table.gz - 14.8 KB)
+0003.445 (0) Table wp_oses_failures: Total expected rows (approximate): 0
+0003.451 (0) Table wp_oses_failures: Total rows added: 1 in 0.00 seconds
+0003.454 (0) Table wp_oses_failures: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_oses_failures.table.gz - 0.8 KB)
+0003.463 (0) Table wp_oses_jobs: Total expected rows (approximate): 0
+0003.469 (0) Table wp_oses_jobs: Total rows added: 0 in 0.00 seconds
+0003.475 (0) Table wp_oses_jobs: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_oses_jobs.table.gz - 0.4 KB)
+0003.495 (0) Table wp_revslider_css: Total expected rows (approximate): 109
+0003.513 (0) Table wp_revslider_css: Total rows added: 109 in 0.02 seconds
+0003.518 (0) Table wp_revslider_css: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_revslider_css.table.gz - 4.9 KB)
+0003.532 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0003.535 (0) Table wp_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0003.536 (0) Table wp_revslider_layer_animations: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_revslider_layer_animations.table.gz - 0.3 KB)
+0003.547 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0003.551 (0) Table wp_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0003.553 (0) Table wp_revslider_navigations: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_revslider_navigations.table.gz - 0.3 KB)
+0003.570 (0) Table wp_revslider_sliders: Total expected rows (approximate): 0
+0003.574 (0) Table wp_revslider_sliders: Total rows added: 1 in 0.00 seconds
+0003.578 (0) Table wp_revslider_sliders: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_revslider_sliders.table.gz - 3.2 KB)
+0003.594 (0) Table wp_revslider_slides: Total expected rows (approximate): 0
+0003.611 (0) Table wp_revslider_slides: Total rows added: 1 in 0.01 seconds
+0003.614 (0) Table wp_revslider_slides: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_revslider_slides.table.gz - 5.7 KB)
+0003.630 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0003.635 (0) Table wp_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0003.638 (0) Table wp_revslider_static_slides: finishing file (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_revslider_static_slides.table.gz - 0.3 KB)
+0003.676 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_options.table.gz (1/34): adding to final database dump
+0003.768 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_users.table.gz (2/34): adding to final database dump
+0003.771 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_usermeta.table.gz (3/34): adding to final database dump
+0003.774 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_commentmeta.table.gz (4/34): adding to final database dump
+0003.776 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_comments.table.gz (5/34): adding to final database dump
+0003.778 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_links.table.gz (6/34): adding to final database dump
+0003.780 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_postmeta.table.gz (7/34): adding to final database dump
+0003.826 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_posts.table.gz (8/34): adding to final database dump
+0004.258 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_term_relationships.table.gz (9/34): adding to final database dump
+0004.262 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_term_taxonomy.table.gz (10/34): adding to final database dump
+0004.265 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_termmeta.table.gz (11/34): adding to final database dump
+0004.268 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_terms.table.gz (12/34): adding to final database dump
+0004.272 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_yoast_seo_links.table.gz (13/34): adding to final database dump
+0004.275 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_yoast_seo_meta.table.gz (14/34): adding to final database dump
+0004.277 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_blc_filters.table.gz (15/34): adding to final database dump
+0004.280 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_blc_instances.table.gz (16/34): adding to final database dump
+0004.284 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_blc_links.table.gz (17/34): adding to final database dump
+0004.290 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_blc_synch.table.gz (18/34): adding to final database dump
+0004.293 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_grp_google_place.table.gz (19/34): adding to final database dump
+0004.297 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_grp_google_review.table.gz (20/34): adding to final database dump
+0004.301 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_layerslider.table.gz (21/34): adding to final database dump
+0004.304 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_layerslider_revisions.table.gz (22/34): adding to final database dump
+0004.307 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_oses_attachments.table.gz (23/34): adding to final database dump
+0004.308 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_oses_clicks.table.gz (24/34): adding to final database dump
+0004.311 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_oses_email_attachments.table.gz (25/34): adding to final database dump
+0004.315 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_oses_emails.table.gz (26/34): adding to final database dump
+0004.326 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_oses_failures.table.gz (27/34): adding to final database dump
+0004.329 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_oses_jobs.table.gz (28/34): adding to final database dump
+0004.332 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_revslider_css.table.gz (29/34): adding to final database dump
+0004.339 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_revslider_layer_animations.table.gz (30/34): adding to final database dump
+0004.342 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_revslider_navigations.table.gz (31/34): adding to final database dump
+0004.357 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_revslider_sliders.table.gz (32/34): adding to final database dump
+0004.362 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_revslider_slides.table.gz (33/34): adding to final database dump
+0004.367 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db-table-wp_revslider_static_slides.table.gz (34/34): adding to final database dump
+0004.393 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db.gz: finished writing out complete database file (1144 KB)
+0004.420 (0) Total database tables backed up: 34 (backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db.gz, size: 1183283, sha1: 4a1837af991ad01ce6b43c1412de5d03616032c3, sha256: 241249e1e4f4ab18729915d0cf398939038ae424c77b37015c7889b334a03930)
+0004.547 (0) backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db.gz: db: This file has not yet been successfully uploaded: will queue
+0004.551 (0) Saving backup history. Total backup size: 1.1 MB
+0004.606 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0004.616 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0004.620 (0) No remote despatch: user chose no remote backup service
+0004.624 (0) Recording as successfully uploaded: backup_2022-08-08-0941_Rainier_Ave_Dental_aa7d19389e95-db.gz
+0004.629 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0004.632 (0) Resume backup (aa7d19389e95, 0): finish run
+0004.640 (0) Decremented the semaphore (fd) by 1
+0004.645 (0) Semaphore (fd) unlocked
+0004.648 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0004.665 (0) No email will/can be sent - the user has not configured an email address.
+0004.687 (0) The backup apparently succeeded and is now complete
